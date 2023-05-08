@@ -105,3 +105,76 @@ a{
 .menu:hover{
     text-decoration: underline;
 }
+section{
+    height: 580px;
+    display: flex;
+    justify-content: flex-start;
+    min-height: 90hv;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    }
+h1{
+    font-family: 'Castoro', serif;
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    line-height: 65px;
+}
+.imagen{
+    margin-left: 80px;
+}
+img{
+    width: 600px;
+}
+
+.shop{
+    border: 1 solid black;
+    background: none;
+    padding: 8px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.shop:hover{
+    background: rgba(142, 114, 94, 0.825);
+    color: white;
+}
+.texto{
+    font-family: 'Castoro', serif;
+    font-size: 14px;
+    color:rgba(107, 71, 49, 0.85);
+    margin-top: 130px;
+}
+.escala{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: right;
+    margin-left: 100px;
+    margin-top: 240px;    
+}
+.fuerte{
+    background: none;
+    border: none;
+    box-shadow: 3px 0 0 black;
+    padding: 15px 0;
+    font-size: 6px;
+    font-weight: bold;
+}
+.tenue{
+    background: none;
+    border: none;
+    box-shadow: 2.5px 0 0 gray;
+    padding: 15px 0;
+    font-size: 6px;
+    font-weight: bold;
+}
