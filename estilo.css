@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background: linear-gradient(
+        to right,
+        rgb(248, 247, 247) 0%,
+        rgb(248, 247, 247)  60%,
+        rgba(213, 182, 161, 0.825) 60%,
+        rgba(213, 182, 161, 0.825) 100%
+    );
+}
+header{
+    color: rgb(237, 187, 153)
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    min-height: 5vh;    
+}
+.logo{
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing:-4px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+nav{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-right: 25%;
+}
+header .derecha{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    width: 30%;
+    align-items:center;
+    justify-content: center;    
+}
+
+.uno{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 1px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    transform: scale(0.5);
+    position: relative;
+    translate: 7px 18px;
+}
+.bolsa{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.bolsa:hover{
+    transform: scale(1.1);
+}
+.lupa:hover{
+    transform: scale(1.1);
+}
+.in{
+    margin-left: 20px;
+    border: none;
+    box-shadow: -1px 0 0 gray;
+    padding: 5px 20px 5px 20px;
+    background: none;    
+}
+.in:hover{
+    opacity: 0.5;
+}
+.up{
+    border: 1 solid black;
+    padding: 5px 20px 5px 20px;
+    margin-left: 15px;
+    background: none;
+    cursor: pointer;
+}
+.up:hover{
+    background: rgba(142, 114, 94, 0.825);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu:hover{
+    text-decoration: underline;
+}
