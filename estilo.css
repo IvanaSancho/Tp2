@@ -53,13 +53,13 @@ header .derecha{
     background-color: white;
     border: 0.1rem solid black;
     border-radius: 50%;
-    color: black;
     padding: 0.1em;
     display: flex;
     text-align: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+    color: black;
     transform: scale(0.6);
     position: relative;
     translate: 0.43rem 1.7rem;
