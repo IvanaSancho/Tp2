@@ -10,8 +10,7 @@ body{
         rgb(248, 247, 247) 0%,
         rgb(248, 247, 247)  60%,
         rgba(213, 182, 161, 0.825) 60%,
-        rgba(213, 182, 161, 0.825) 100%
-    );
+        rgba(213, 182, 161, 0.825) 100%);
 }
 header{
     color: rgb(237, 187, 153);
@@ -111,7 +110,7 @@ section{
     width: 1920px;
     display: flex;
     justify-content: flex-start;
-    margin-left: 3.12rem;    
+    margin-left: 5rem;    
 }
 .contenido{
     display: flex;
